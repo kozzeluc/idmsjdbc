@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Do-it-yourself CA IDMS JDBC Driver Wrapper for OSGi
+Bundle-SymbolicName: org.lh.idmsjdbc.driver
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: idmsjdbc.jar
+Bundle-Vendor: Luc Hermans
+Export-Package: ca.idms.dsi,
+ ca.idms.io,
+ ca.idms.jdbc,
+ ca.idms.net,
+ ca.idms.proxy,
+ ca.idms.qcli,
+ ca.idms.util,
+ ca.idms.xa,
+ com.ca.idms.hibernate,
+ com.ca.idms.was
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

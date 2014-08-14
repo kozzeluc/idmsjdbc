@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Do-it-yourself CA IDMS JDBC Driver Wrapper for OSGi Update Site">
+      This update site hosts the do-it-yourself CA IDMS JDBC Driver Wrapper for OSGi bundle.
+   </description>
+   <feature id="org.lh.idmsjdbc" version="0.0.0">
+      <category name="org.lh.idmsjdbc.category"/>
+   </feature>
+   <category-def name="org.lh.idmsjdbc.category" label="Do-it-yourself Packages"/>
+</site>
